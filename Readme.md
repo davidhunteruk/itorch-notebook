@@ -28,8 +28,9 @@ Mac:
 
 Ubuntu:
 
-1. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
-2. Visit http://localhost:8888
-3. ctrl+c to stop the process
+1. cd to a directory on your system where you'd like to keep the source files
+2. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
+3. Visit localhost:8888
+4. ctrl+c to stop the process
 
 
