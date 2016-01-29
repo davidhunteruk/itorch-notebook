@@ -11,13 +11,14 @@ Creates a docker container with Torch, Jupyter notebook and the Facebook Jupyter
 
 ## Install Docker
 
-Mac: download docker toolbox https://www.docker.com/products/docker-toolbox
-Windows: download docker toolbox https://www.docker.com/products/docker-toolbox
-Ubuntu: `wget -qO- https://get.docker.com/ | sh`
+- Mac: download docker toolbox https://www.docker.com/products/docker-toolbox
+- Windows: download docker toolbox https://www.docker.com/products/docker-toolbox
+- Ubuntu: `wget -qO- https://get.docker.com/ | sh`
 
 ## Run
 
 Mac:
+
 1. Run Docker Quickstart Terminal from launchpad/applications
 2. cd to a directory on your system where you'd like to keep the source files
 3. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
