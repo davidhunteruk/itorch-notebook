@@ -35,7 +35,7 @@ RUN git clone https://github.com/facebook/iTorch.git \
     && cd iTorch \
     && /root/torch/install/bin/luarocks make
 
-ENV PATH /root/torch/install/bin/itorch:$PATH
+ENV PATH /root/torch/install/bin:$PATH
 
 WORKDIR /root/data
 VOLUME /root/data

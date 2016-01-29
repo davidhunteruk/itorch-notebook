@@ -21,6 +21,15 @@ Mac:
 
 1. Run Docker Quickstart Terminal from launchpad/applications
 2. cd to a directory on your system where you'd like to keep the source files
-3. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
-4. Visit http:// :8888
-5. ctrl+c to stop the process
+3. Make a note of the ip returned by: `docker-machine ip default`. You only have to do this once. It will not change.
+4. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
+5. Visit http://IP_FROM_3:8888
+6. ctrl+c to stop the process
+
+Ubuntu:
+
+1. `docker run -it --rm -p 8888:8888 -v $(pwd):/root/data dhunter/itorch-notebook`
+2. Visit http://localhost:8888
+3. ctrl+c to stop the process
+
+
